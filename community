@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Student Community</title>
+    <style>
+		body {
+			font-family: Arial, sans-serif;
+		}
+		header {
+			background-color: #007BFF;
+			color: white;
+			padding: 10px;
+			text-align: center;
+		}
+		nav {
+			background-color: #f1f1f1;
+			padding: 10px;
+			text-align: center;
+		}
+		nav a {
+			color: #007BFF;
+			text-decoration: none;
+			margin: 0 5px;
+		}
+		nav a:hover {
+			background-color: #007BFF;
+			color: white;
+		}
+		main {
+			padding: 20px;
+		}
+		footer {
+			background-color: #007BFF;
+			color: white;
+			padding: 10px;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+    <header>
+        <h1>Welcome to the Student Community</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="community_home.html">Home</a></li>
+            <li><a href="#">Forums</a></li>
+            <li><a href="community_events.html ">Events</a></li>
+            <li><a href="#">Resources</a></li>
+            <li><a href="#">About</a></li>
+        </ul>
+    </nav>
+    <main>
+        <section id="announcements">
+            <li><a href="announcements.html">Announcements</a></li>
+        </section>
+        <section id="forums">
+            <h2>Forums</h2>
+            <ul>
+                <li><a href="#">General Discussion</a></li>
+                <li><a href="#">Study Groups</a></li>
+                <li><a href="#">Career Advice</a></li>
+            </ul>
+        </section>
+        <section id="events">
+            <h2>Events</h2>
+            <ul>
+                <li><a href="#">Coding Workshop</a></li>
+                <li><a href="#">Game Development</a></li>
+                <li><a href="#">Hackathon</a></li>
+            </ul>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2022 Student Community. All rights reserved.</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
