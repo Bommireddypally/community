@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Home Page</title>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <h1>Welcome to My Home Page</h1>
+        </header>
+        <main>
+            <section>
+                <img src="image.jpg" alt="Home page image">
+                <p>This is a simple home page with HTML and CSS.</p>
+            </section>
+        </main>  
+        <footer>
+            <p>&copy; 2023 My Home Page</p>
+        </footer>
+    </body>
+</html>
