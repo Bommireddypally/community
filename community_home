@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Student Community</title>
+	<style>
+		body {
+			font-family: Arial, sans-serif;
+		}
+		header {
+			background-color: #007BFF;
+			color: white;
+			padding: 10px;
+			text-align: center;
+		}
+		nav {
+			background-color: #f1f1f1;
+			padding: 10px;
+			text-align: center;
+		}
+		nav a {
+			color: #007BFF;
+			text-decoration: none;
+			margin: 0 5px;
+		}
+		nav a:hover {
+			background-color: #007BFF;
+			color: white;
+		}
+		main {
+			padding: 20px;
+		}
+		footer {
+			background-color: #007BFF;
+			color: white;
+			padding: 10px;
+			text-align: center;
+		}
+	</style>
+</head>
+<body>
+	<header>
+		<h1>Student Community</h1>
+	</header>
+	<nav>
+		<a href="#">Home</a>
+		<a href="#">About</a>
+		<a href="#">Resources</a>
+		<a href="#">Contact</a>
+	</nav>
+	<main>
+		<h2>Welcome to the Student Community</h2>
+		<p>This is a space for students to connect, share resources, and collaborate on projects. Check out our <a href="#">resources</a> page for helpful study tips, career advice, and more.</p>
+		<h3>Upcoming Events</h3>
+		<ul>
+			<li>Study Group - every Tuesday at 6pm</li>
+			<li>Career Workshop - April 15th at 3pm</li>
+			<li>Tech Talk - May 10th at 6pm</li>
+		</ul>
+	</main>
+	<footer>
+		<p>Copyright © 2023 Student Community</p>
+	</footer>
+</body>
+</html>
