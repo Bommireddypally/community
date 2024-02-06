@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    * {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+}
+
+a {
+  color: #0366d6;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+.header {
+  background-color: #444;
+  color: #fff;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+}
+
+.main-content {
+  padding: 1rem;
+}
+
+.categories,
+.topics,
+.posts {
+  width: 100%;
+  margin-bottom: 2rem;
+}
+
+.categories h2,
+.topics h2,
+.posts h2 {
+  margin-bottom: 1rem;
+}
+
+.category-list,
+.topic-list,
+.post-list {
+  list-style: none;
+}
+
+.category-list li,
+.topic-list li,
+.post-list li {
+  margin-bottom: 1rem;
+}
+
+.topic,
+.post {
+  border: 1px solid #ccc;
+  padding: 1rem;
+}
+
+.topic-title,
+  </style>
+  <title>Simple Forum</title>
+</head>
+<body>
+  <header class="header">
+    <h1 class="logo">Simple Forum</h1>
+  </header>
+  <main class="main-content">
+    <section class="categories">
+      <h2>Categories</h2>
+      <ul class="category-list">
+        <li><a href="#">Category 1</a></li>
+        <li><a href="#">Category 2</a></li>
+        <li><a href="#">Category 3</a></li>
+      </ul>
+    </section>
+    <section class="topics">
+      <h2>Topics</h2>
+      <ul class="topic-list">
+        <li class="topic">
+          <h3 class="topic-title"><a href="#">Topic 1</a></h3>
+          <p class="topic-author">by Author 1</p>
+          <p class="topic-content">Content of Topic 1</p>
+        </li>
+        <li class="topic">
+          <h3 class="topic-title"><a href="#">Topic 2</a></h3>
+          <p class="topic-author">by Author 2</p>
+          <p class="topic-content">Content of Topic 2</p>
+        </li>
+      </ul>
+    </section>
+    <section class="posts">
+      <h2>Posts</h2>
+      <ul class="post-list">
+        <li class="post">
+          <h3 class="post-title"><a href="#">Post 1</a></h3>
+          <p class="post-author">by Author 1</p>
+          <p class="post-content">Content of Post 1</p>
+        </li>
+        <li class="post">
+          <h3 class="post-title"><a href="#">Post 2</a></h3>
+          <p class="post-author">by Author 2</p>
+          <p class="post-content">Content of Post 2</p>
+        </li>
+      </ul>
+    </section>
+  </main>
+</body>
+</html>
